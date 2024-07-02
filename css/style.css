@@ -9,7 +9,7 @@
 /*Utilities*/
 .container{
     background-color: white;
-    width: 1080px;
+    width: 800px;
     margin: 0 auto;
 }
 .font-arial{
@@ -28,6 +28,10 @@ header{
     background-color: white;
 }
 
+main{
+    margin-top: 20px;
+}
+
 /*Header*/
 #icon{
     height: 50px;
@@ -40,3 +44,26 @@ header{
     vertical-align: middle;
 }
 
+/*Buttons section*/
+
+#buttons{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    padding: 10px 0px 10px 30px;
+}
+
+.blue-button{
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+}
+
+button{
+    height: 25px;
+    width: 100px;
+    margin-right: 10px;
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10%;
+}
