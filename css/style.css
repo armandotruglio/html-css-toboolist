@@ -67,3 +67,32 @@ button{
     border: 1px solid grey;
     border-radius: 10%;
 }
+
+/*Checklist section*/
+ul{
+    list-style-type: none;
+}
+#checklist{
+    padding: 50px 0 5px  20px;
+}
+
+.circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.circle.checked{
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+.circle.delete{
+    border: 1px solid #ff0000;
+    color: #ff0000;
+}
