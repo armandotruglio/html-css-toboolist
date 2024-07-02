@@ -30,6 +30,7 @@ header{
 
 main{
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 /*Header*/
@@ -65,13 +66,14 @@ button{
     background-color: white;
     color: grey;
     border: 1px solid grey;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 /*Checklist section*/
 ul{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
 }
 li{
     margin: 15px 0;
@@ -104,8 +106,9 @@ li{
 /*Tag section*/
 
 .tag{
+    font-size: 12px;
     margin-left: 10px;
-    border-radius: 30%;
+    border-radius: 15px;
     padding: 5px;
     color: white;
 }
